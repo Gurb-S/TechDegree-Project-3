@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+
+    <title>Gurbakhash Sandhu</title>
+</head>
+
+<body>
+    <header>
+        <h1>THE CODE REVIEW</h1>
+        <div class="container text">
+            <h2>Signup for our newsletter</h2>
+            <p>Get the latest news on how your code is doing right in your inbox</p>
+        </div>
+    </header>
+    <form action="index.html"  class="container form">
+        <fieldset class="field">
+            <legend>Contact Information</legend>
+            <label for="name" class="label_uno">Full Name</label>
+            <input type="text" id="name" name="user_name" class="input_uno" placeholder="Required" required>
+            <label for="email" class="label_uno">Email Address</label>
+            <input type="email" id="email" name="user_email" class="input_uno" placeholder="Required" required>
+            <label for="number" class="label_uno" >Phone Number</label>
+            <input type="tel" id="number" name="user_phonenumber" class="input_uno" placeholder="Required" required>
+            <label for="Address" class="label_uno">Street Address</label>
+            <input type="text" id="Address" name="user_address" class="input_uno" placeholder="1234 Elm Street">
+            <label for="city" class="label_uno">City</label>
+            <input type="text" id="city" name="user_city" class="input_uno" placeholder="New York City">
+            <label for="state" class="label_uno">State</label>
+            <select id="state" name="user_state" class="input_uno">
+                <option value="default">Choose State</option>
+                <option value="Alabama">Alabama</option>
+                <option value="California">California</option>
+                <option value="Montana">Montana</option>
+                <option value="Navada">Navada</option>
+                <option value="New York">New York</option>
+                <option value="Utah">Utah</option>
+            </select><br>
+            <label for="zipcode" class="label_uno">Zip Code</label>
+            <input type="text" id="zipcode" name="user_zipcode" class="input_uno"  placeholder="98765" minlength="5" maxlength="10">
+        </fieldset>
+        <fieldset>
+            <legend>Newsletter</legend>
+            <div>
+            <label>Select the newsletter you would like to receive</label><br>
+            <input type="checkbox" name="user_news" id="html" class="input_dos">
+            <label for="html" class="label_dos">HTML News</label><br>
+            <input type="checkbox" name="user_news" id="css" class="input_dos">
+            <label for="css" class="label_dos">CSS News</label><br>
+            <input type="checkbox" name="user_news" id="Javascript" class="input_dos">
+            <label for="Javascript" class="label_dos">Javascript News</label><br>
+            <label>Newsletter format</label><br>
+            <input type="radio" name="user_text" id="html_form" class="input_dos">
+            <label for="html_form" class="label_dos">HTML</label><br>
+            <input type="radio" name="user_text" id="plain" class="input_dos">
+            <label for="plain" class="label_dos">Plain text</label><br>
+            <label>How often would you like to receive the newsletter?</label><br>
+            <input type="radio" name="user_day" id="daily" class="input_dos">
+            <label for="daily" class="label_dos">Daily</label><br>
+            <input type="radio" name="user_day" id="weekly" class="input_dos">
+            <label for="weekly" class="label_dos">Weekly</label><br>
+            <input type="radio" name="user_day" id="Bi-Weekly" class="input_dos">
+            <label for="Bi-Weekly" class="label_dos">Bi-Weekly</label><br>
+            <input type="radio" name="user_day" id="Monthly" class="input_dos">
+            <label for="Monthly" class="label_dos">Monthly</label><br>
+            <label for="Other" class="label_dos">Other topics you'd like to hear about</label><br>
+            <textarea name="user_input" id="Other"></textarea>
+            <button type="submit">Sign Up</button>
+            <p>Copyright The Code Review</p>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
